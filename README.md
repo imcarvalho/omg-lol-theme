@@ -1,2 +1,3 @@
 # omg-lol-theme
- Just CSS for my omg.lol page
+
+Just CSS styling for my omg.lol page.

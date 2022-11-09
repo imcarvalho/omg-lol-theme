@@ -1,0 +1,64 @@
+body {
+  color: var(rgba(0, 37, 109, 0.9));
+}
+
+a:link,
+a:visited {
+  color: var(rgba(0, 37, 109, 0.9));
+  border-bottom: 1px dotted var(rgba(0, 37, 109, 0.9));
+}
+
+a:link:hover {
+  color: var(rgba(1, 0, 109, 0.65));
+  border-bottom: 1px dotted var(rgba(1, 0, 109, 0.65));
+}
+
+h1,
+h2,
+h3 {
+  color: var(rgba(1, 0, 109, 0.65));
+}
+
+hr {
+  border: 1px dashed var(rgba(1, 26, 59, 0.3));
+  overflow: hidden;
+  margin: 28px auto;
+}
+
+#profile-picture {
+  border-radius: 50%;
+}
+
+#verification,
+.fa-solid,
+.fa-brands {
+  color: var(rgba(205, 35, 120, 0.7));
+}
+
+#bio {
+  font-size: 0.85em;
+}
+
+#status-log h2 {
+  margin-top: 0;
+  font-size: 1.4em;
+}
+
+.statuslol {
+  background: var(rgba(255, 255, 255, 0.3)) !important;
+  box-shadow: var(0px 0px 5px 1px rgba(0, 0, 0, 0.1));
+}
+
+#profile-items {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+#extra-info {
+  font-size: 0.5em;
+  opacity: 0;
+}
+
+#extra-love {
+  font-size: 0.7em;
+}/*# sourceMappingURL=styles.css.map */
