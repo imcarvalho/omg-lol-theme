@@ -6,28 +6,28 @@ $shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.1);
 $background-accent: rgba(255, 255, 255, 0.3);
 
 body {
-  color: var($text);
+  color: $text;
 }
 
 a:link,
 a:visited {
-  color: var($text);
-  border-bottom: 1px dotted var($text);
+  color: $text;
+  border-bottom: 1px dotted $text;
 }
 
 a:link:hover {
-  color: var($text-accent);
-  border-bottom: 1px dotted var($text-accent);
+  color: $text-accent;
+  border-bottom: 1px dotted $text-accent;
 }
 
 h1,
 h2,
 h3 {
-  color: var($text-accent);
+  color: $text-accent;
 }
 
 hr {
-  border: 1px dashed var($separator);
+  border: 1px dashed $separator;
   overflow: hidden;
   margin: 28px auto;
 }
@@ -39,7 +39,7 @@ hr {
 #verification,
 .fa-solid,
 .fa-brands {
-  color: var($icons);
+  color: $icons;
 }
 
 #bio {
@@ -55,8 +55,8 @@ hr {
 
 .statuslol {
   // important needed to override the JS styling that comes with the widget
-  background: var($background-accent) !important;
-  box-shadow: var($shadow);
+  background: $background-accent !important;
+  box-shadow: $shadow;
 }
 
 #profile-items {
