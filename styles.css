@@ -31,7 +31,8 @@ hr {
 
 #verification,
 .fa-solid,
-.fa-brands {
+.fa-brands,
+.omg-icon {
   color: rgba(205, 35, 120, 0.7);
 }
 
@@ -54,11 +55,17 @@ hr {
   padding-top: 0;
 }
 
-#extra-info {
-  font-size: 0.5em;
-  opacity: 0;
-}
-
 #extra-love {
   font-size: 0.7em;
 }
+
+.fan-banner {
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+  margin-bottom: 16px;
+  width: 100%;
+  max-width: 350px;
+}
+
+/*# sourceMappingURL=styles.css.map */
