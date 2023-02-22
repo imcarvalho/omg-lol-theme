@@ -30,6 +30,7 @@ hr {
   border: 1px dashed $separator;
   overflow: hidden;
   margin: 28px auto;
+  background: none;
 }
 
 #profile-picture {
@@ -76,4 +77,30 @@ hr {
   margin-bottom: 16px;
   width: 100%;
   max-width: 350px;
+}
+
+#now {
+  text-align: center !important;
+
+  a {
+    border-bottom: none;
+  }
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 4px;
+
+  a {
+    border-bottom: none;
+  }
+
+  img {
+    max-height: 150px;
+  }
+}
+
+#now-footer {
+  font-size: 12px;
 }
