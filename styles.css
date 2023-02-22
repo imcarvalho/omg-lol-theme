@@ -88,6 +88,10 @@ hr {
   max-height: 150px;
 }
 
+.grid-music {
+  grid-template-columns: repeat(3, 1fr);
+}
+
 #now-footer {
   font-size: 12px;
 }
